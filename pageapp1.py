@@ -114,7 +114,7 @@ def home():
     plot(arr,post_count, **plot_conf1)
     plt.savefig('static/posts.png')
 
-    return render_template('display1.html', name = plt.show())
+    return render_template('display1.html')
 
 
 if __name__ == "__main__":
